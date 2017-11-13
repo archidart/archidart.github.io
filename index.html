@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="archiDART">
+    <meta name="author" content="Guillaume Lobet">
+    <meta name="keywords" content="archidart,root,root data analysis,rsml">
+    <title>SmartRoot</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/landing-page.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#sec1">archiDART</a></li>
+                    <li><a href="#sec2">Why?</a></li>
+                    <li><a href="#sec3">Features</a></li>
+                    <li><a href="#sec4">Installation</a></li>
+                    <li><a href="#sec5">Use</a></li>
+                    <li><a href="#sec5">Help</a></li>
+                    <li><a href="#sec6">RSML</a></li>
+                    <li><a href="#sec7">About</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <!-- Header -->
+    <a name="sec1"></a>
+    <div class="intro-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h1>archiDART</h1>
+                        <h3>Analysis of root system data</h3>
+                        <hr class="intro-divider">
+                        <ul class="list-inline intro-social-buttons">
+                            <li>
+                                <a type="button" class="btn btn-default btn-lg" href="https://cran.r-project.org/web/packages/archiDART/index.html" download><i class="fa fa-download" aria-hidden="true"></i> archiDART on CRAN</a>
+                            </li>
+                            <li>
+                                <a type="button" class="btn btn-default btn-lg" href="https://plantmodelling.shinyapps.io/archishiny/" download><i class="fa fa-link" aria-hidden="true"></i> Web application</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/archidart/archidart" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> Project on Github</a>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.intro-header -->
+
+    <!-- Page Content -->
+
+	<a  id="sec2"></a>
+    <div class="content-section-b">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">What is archiDART?</h2>
+                    <p class="lead">archiDART is an R package that was developed for the automated analysis of plant root system architectures using Data Analysis of Root Tracings (DART) and Root System Markup Language (RSML) files. </p>
+
+                    <p class="lead">This R package is the result of an international collaboration between the Plant Biology Unit of Gembloux Agro-Bio Tech (University of Liège, Belgium), the Earth and Life Institute of the Catholic University of Louvain-la-Neuve (Belgium), the Ecosystem Functioning and Services lab of the Leuphana University Lüneburg (Germany), the Forschungszentrum Jülich GmbH (IBG-3, Germany), the French National Institute for Agricultural Research (Centre PACA UR 1115 PSH, France), and the Donald Danforth Plant Science Center (USA).</p>
+
+                </div>
+                <div class="col-lg-5 col-lg-offset-1 col-sm-6">
+                    <img class="img-responsive" src="img/archidart-1.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+    <a  name="sec3"></a>
+    <div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-6">
+
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">archiDART is :</h2>
+                    <p class="lead">
+                        <ul>
+                            <li>an R package</li>
+                            <li>Flexible</li>
+                            <li>Easy to use</li>
+                            <li>Free</li>
+                            <li>Examplified in a web application</li>
+                        </ul>
+                    </p>
+
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">archiDART works with:</h2>
+                    <p class="lead">
+                        <ul>
+                            <li>Root System Markup Language data</li>
+                            <li>Data from the DART software</li>
+                        </ul>
+                    </p>                    
+
+                </div>
+                <div class="col-lg-5  col-sm-6">
+
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Built in analysis :</h2>
+                    <p class="lead">
+                        <ul>
+                            <li>Synthetic measures</li>
+                            <li>Time series</li>
+                            <li>Topological indexes</li>
+                            <li>Persistent homology</li>
+                        </ul>
+                    </p>  
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+
+    <a  name="sec4"></a>
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-7 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Installation</h2>
+
+                    <p class="lead">
+                        archiDART was developped as an r package. To install it, follow the next steps:
+                    </p>
+                    
+                    <p class="lead">
+                        1. Install <a href="https://www.r-project.org/">R</a></br></br>
+                        1. Install <a href="https://www.rstudio.com/">R-Studio</a> (optional)</br></br>
+                        2. In the R terminal, type in: <code>install.packages(archiDART)</code></br></br>
+                        3. In the R terminal, type in: <code>library(archiDART)</code></br></br>
+                    </p>
+                    <p class="lead">
+                        More precise information can be found in the manual or the Quick Start Guide
+                    </p>
+                    
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <a type="button" class="btn btn-primary" href="https://github.com/SmartRoot/SmartRoot-Installation/raw/master/SmartRoot.zip" download><i class="fa fa-download" aria-hidden="true"></i> SmartRoot files</a>  
+                    <a type="button" class="btn btn-default" href="https://cran.r-project.org/web/packages/archiDART/archiDART.pdf" download><i class="fa fa-download" aria-hidden="true"></i> Manual</a>  
+
+
+                </div>
+                <div class="col-lg-4 col-lg-offset-1 col-sm-6">
+                    <img class="img-responsive" src="img/archidart-2.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+
+
+
+    <a  name="sec5"></a>
+    <div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-4 col-sm-4">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Using archiDART</h2>
+                    <p class="lead">
+                        We created a web application to guide throught the basic capabilities of archiDART. Check it out!
+                    </p>
+                    <a type="button" class="btn btn-default" href="https://cran.r-project.org/web/packages/archiDART/archiDART.pdf" download><i class="fa fa-download" aria-hidden="true"></i> Manual</a>  
+                    <a type="button" class="btn btn-default" href="https://plantmodelling.shinyapps.io/archishiny/" download><i class="fa fa-download" aria-hidden="true"></i> Quick Start Guide</a>
+
+                    <h2 class="section-heading">Touble using archiDART?</h2>
+                    <p class="lead">
+                        You need some help? You want to propose some new features? You found a bug? 
+                        Just get in touch with us!
+                    </p>
+
+                    <a type="button" class="btn btn-primary" href="https://github.com/archiDART/archidart/issues"><i class="fa fa-external-link" aria-hidden="true"></i> Get in touch!</a> 
+
+                </div>
+                <div class="col-lg-7 col-lg-offset-1 col-sm-5">
+                    <div class="embed-responsive embed-responsive-16by9">
+                      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/kCK3I2Im_r0"></iframe>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+
+    </div>
+
+
+
+
+    <a  name="sec6"></a>
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6 col-sm-6">
+
+                    <img src="img/rsml.png"  class="img-responsive img-rounded">
+
+                </div>
+
+                <div class="col-lg-5 col-lg-offset-1 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">archiDART + RSML = <i class="fa fa-heart" style="color:red" aria-hidden="true"></i></h2>
+                    <p class="lead">
+                        RootSystemML is a file format to represent root architectural data. It has been designed to overcome two major challenges:</br></br>
+
+                        <b>1. </b>To enable portability of root architecture data between different software tools in an easy and interoperable manner allowing seamless collaborative work.</br></br>
+
+                        <b>2. </b>To provide a standard format upon which to base central repositories which will soon arise following the expanding worldwide root phenotyping effort.</br></br>
+                        
+                        RSML allows to store 2D or 3D image metadata, plant and root properties and geometries, continuous functions along individual root paths and a suite of annotations at the image, plant or root scales, at one or several time points. The plant ontologies are used to describe botanical entities that are relevant at the scale of root system architecture.
+                    </p>
+
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <a type="button" class="btn btn-primary" href="http://rootsystemml.github.io/"><i class="fa fa-external-link" aria-hidden="true"></i> RSML website</a>  <a type="button" class="btn btn-default" href="http://dx.doi.org/10.1104/pp.114.253625"><i class="fa fa-external-link" aria-hidden="true"></i> RSML paper</a></br></br> 
+
+
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+
+    </div>
+
+    <a  name="sec7"></a>
+    <div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">About us</h2>
+                    <p class="lead">
+                        archiDART was initially developped by <a href="https://scholar.google.com/citations?user=aB_Sn3AAAAAJ&hl=fr">Benjamin Delory</a>.
+                    </p>
+
+                    <p class="lead">
+                        archiDART is still maintained and improved, thanks to numerous user feedbacks and demands, but also thanks to new developers such as <a href="http://www.guillaumelobet.be">Guillaume Lobet</a> from the Forschungszentrum Juelich.
+                    </p>
+
+                    <img src="img/juelich_logo.jpg" class="img-responsive img-thumbnail" style="height:70px">  <img src="img/leuphania.png" class="img-responsive img-thumbnail" style="height:70px">     </br></br>
+
+
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">How to cite us</h2>
+                    <p class="lead">
+                        <blockquote>archiDART: an R package for the automated computation of plant root architectural traits. Delory BM, Baudson C, Brostaux Y, Lobet G, du Jardin P, Pagès L, et al., 2016</blockquote>
+                    </p>                    
+
+                    <a type="button" class="btn btn-default" href="https://link.springer.com/article/10.1007%2Fs11104-015-2673-4"><i class="fa fa-external-link" aria-hidden="true"></i> View paper</a></br>      
+                 
+
+
+                </div>
+                <div class="col-lg-5 col-lg-offset-1 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">archiDART is Open source</h2>
+                    <p class="lead">
+                            
+   							LICENCE HERE
+                    </p>
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <a type="button" class="btn btn-primary" href="https://github.com/SmartRoot/smartroot"><i class="fa fa-github" aria-hidden="true"></i> Source code on GitHub</a>
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+
+    </div>
+
+    <!-- /.content-section-a -->
+
+	<a  name="contact"></a>
+    <div class="banner">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5">
+                    <h2>Contact the team:</h2>
+                </div>
+                <div class="col-lg-7">
+                    <ul class="list-inline banner-social-buttons">
+
+                        <li>
+                            <a href="https://github.com/archiDART/archiDART" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Project on Github</span></a>
+                        </li>                      
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.banner -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-inline">
+                        <li><a href="#sec1">archiDART</a></li>
+                        <li><a href="#sec2">Why?</a></li>
+                        <li><a href="#sec3">Features</a></li>
+                        <li><a href="#sec4">Installation</a></li>
+                        <li><a href="#sec5">Use</a></li>
+                        <li><a href="#sec6">RSML</a></li>
+                        <li><a href="#sec7">About</a></li>
+                    </ul>
+                    <p class="copyright text-muted small">Copyright &copy; Forschungszentrum Juelich 2017, Université catholique de Louvain, 2011-2017</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+      <script>    
+        $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html,body').animate({
+                scrollTop: target.offset().top
+              }, 1000);
+              return false;
+            }
+          }
+        });
+      });
+
+      </script>    
+
+    <!-- Google analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-92391544-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
+</body>
+
+</html>
